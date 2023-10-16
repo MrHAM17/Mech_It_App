@@ -1,0 +1,67 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+
+import 'package:mech_it/common/login_page.dart';
+import 'package:mech_it/common/spalsh_screen.dart';
+import 'package:mech_it/user/user_register_page.dart';
+import 'package:mech_it/mechanic/mech_register_page.dart';
+import 'package:mech_it/user/user_home_page.dart';
+import 'package:mech_it/mechanic/mech_home_page.dart';
+
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(primarySwatch: Colors.deepPurple      ),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+
+
+// ***
+
+        // initialRoute: 'LoginPage',
+
+        routes: {
+          'UserRegisterPage': (context) => UserRegisterPage(),
+          'MechRegisterPage': (context) => MechRegisterPage(),
+          'UserHomePage': (context) => UserHomePage(),
+          'MechHomePage': (context) => MechHomePage()
+          // 'LoginPage': (context) => LoginPage(),
+          // 'LoginPage': (context) => MechRegisterPage(),
+        },
+
+///////   OR  ////////
+
+        home: LoginPage(), );
+
+///////   OR  ////////
+
+//       home: SpalshScreen(),
+//       debugShowCheckedModeBanner: false, );
+
+///////   OR  ////////
+
+        // home: AnimatedSplashScreen(
+        // splash: "assets/mechanic images/real_splash_screen.png", splashIconSize: 700,
+        // splashTransition: SplashTransition.scaleTransition,
+        // backgroundColor: Colors.purple.shade800,
+        // duration: 0500,
+        //   nextScreen: LoginPage(), ),
+        // debugShowCheckedModeBanner: false, );
+
+
+// *** //
+
+  }
+}
