@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mech_it.app-mergeDebugResources-13:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HARSH\\AndroidStudioProjects\\Dart_Flutter_Projects\\Sem 5 Mini Project\\mech_it\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "175,845",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "496,1011"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,250",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "245,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

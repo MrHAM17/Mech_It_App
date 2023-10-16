@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">153709484630</string>
+    <string name="google_api_key" translatable="false">AIzaSyDJn73S18XhR2mAhsJh6ihY-d9Dibukw8Y</string>
+    <string name="google_app_id" translatable="false">1:153709484630:android:d5378f5065a98c704db9f7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDJn73S18XhR2mAhsJh6ihY-d9Dibukw8Y</string>
+    <string name="google_storage_bucket" translatable="false">mech-it.appspot.com</string>
+    <string name="project_id" translatable="false">mech-it</string>
+</resources>

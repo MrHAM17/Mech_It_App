@@ -1,0 +1,18 @@
+com.example.mech_it.app-jetified-firebase-common-20.3.3-0 C:\Users\HARSH\.gradle\caches\transforms-3\2f2324062464e4c1bf2bde1ae263ee8d\transformed\jetified-firebase-common-20.3.3\res
+com.example.mech_it.app-jetified-play-services-base-18.0.1-1 C:\Users\HARSH\.gradle\caches\transforms-3\319ef0e858a9dde01f6ed1f30ce64c9d\transformed\jetified-play-services-base-18.0.1\res
+com.example.mech_it.app-jetified-window-1.0.0-beta04-2 C:\Users\HARSH\.gradle\caches\transforms-3\391febcabe7642fd3569579a6a8826fd\transformed\jetified-window-1.0.0-beta04\res
+com.example.mech_it.app-browser-1.4.0-3 C:\Users\HARSH\.gradle\caches\transforms-3\6bb36bba0a9f0846364e9a4e83353de1\transformed\browser-1.4.0\res
+com.example.mech_it.app-core-1.6.0-4 C:\Users\HARSH\.gradle\caches\transforms-3\7b87e9067a556c68477513b8a868ac5b\transformed\core-1.6.0\res
+com.example.mech_it.app-jetified-annotation-experimental-1.1.0-5 C:\Users\HARSH\.gradle\caches\transforms-3\89597563592261b5204ce49a7da91636\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.mech_it.app-jetified-window-java-1.0.0-beta04-6 C:\Users\HARSH\.gradle\caches\transforms-3\8a252009754f2342de68599a9dba85dc\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.mech_it.app-jetified-play-services-basement-18.1.0-7 C:\Users\HARSH\.gradle\caches\transforms-3\c4b2d503be49c7bac5eac7fc12d0c11f\transformed\jetified-play-services-basement-18.1.0\res
+com.example.mech_it.app-debug-8 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\android\app\src\debug\res
+com.example.mech_it.app-main-9 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\android\app\src\main\res
+com.example.mech_it.app-pngs-10 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\generated\res\pngs\debug
+com.example.mech_it.app-res-11 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\generated\res\processDebugGoogleServices
+com.example.mech_it.app-resValues-12 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\generated\res\resValues\debug
+com.example.mech_it.app-mergeDebugResources-13 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.mech_it.app-mergeDebugResources-14 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.mech_it.app-merged_res-15 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\app\intermediates\merged_res\debug
+com.example.mech_it.app-packaged_res-16 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\firebase_auth\intermediates\packaged_res\debug
+com.example.mech_it.app-packaged_res-17 C:\Users\HARSH\AndroidStudioProjects\Dart_Flutter_Projects\Sem 5 Mini Project\mech_it\build\firebase_core\intermediates\packaged_res\debug
