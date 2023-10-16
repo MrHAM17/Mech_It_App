@@ -1,0 +1,111 @@
+1) Lost of relatable colours
+	--> deepPurpleAccent 
+	--> https://api.flutter.dev/flutter/material/Colors/deepPurple-constant.html
+
+
+2) colour used for splash instead white screen in app. Code is 
+	--> 7B1FA2
+	--> https://colors.muz.li/palette/7b1fa3/3b1672/e0cbff/a3931f/726716
+
+3) 0xffCD82DE , 0xff78258B
+	https://www.computerhope.com/htmcolor.htm
+
+4) Coding With Tea --> Flutter Login App - UI UX, Backend, Firebase, GetX - 2023 
+ 	video no 17th, last 4 minutes(changing shape of textfield when choosed to type at a time)
+
+
+5) in ios/runner/info.plist -->
+   below true & above dict
+
+
+<string>NSLocationWhenInUsageDescription</string>
+    	<key>Want to display location on map, and track it.</key>
+
+    <string>NSLocationAlwaysAndWhenInUsageDescription</string>
+        <key>Want to display location on map, and track it.</key>
+
+
+6) Shivam's code for map
+
+Position? _position;
+
+19.2183, 72.9781
+
+Future<Position> getCurrentPos() async {
+    bool serviceEnabled;
+    LocationPermission permission;
+
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      return Future.error('Location services are disabled.');
+    }
+
+    permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        return Future.error('Location permissions are denied');
+      }
+    }
+
+    if (permission == LocationPermission.deniedForever) {
+      return Future.error(
+          'Location permissions are permanently denied, we cannot request permissions.');
+    }
+
+    return await Geolocator.getCurrentPosition(
+      desiredAccuracy: LocationAccuracy.high,
+    );
+  }
+
+
+
+--------------------> Final code below
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_map/flutter_map.dart';
+import 'package:latlong2/latlong.dart';
+
+class MapPage extends StatefulWidget {
+  const MapPage({super.key});
+
+  @override
+  State<MapPage> createState() => _MapPageState();
+}
+
+class _MapPageState extends State<MapPage> {
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(child: Scaffold(body:
+    FlutterMap(
+      options: MapOptions(
+        center: LatLng(19.2183, 72.9781),
+        zoom: 17.0,
+      ),
+      children: [
+        TileLayer(
+          // THE URL FOR OpenStreetView API.
+          urlTemplate:
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          // subdomains: const ["a","b","c"],
+        ),
+      ],
+    ),));
+  }
+}
+
+--------------------> Final code end
+
+
+
+
+
+
+7)  checkbox icons
+
+https://api.flutter.dev/flutter/material/Icons/check_box-constant.html
+https://api.flutter.dev/flutter/material/Icons/check_box_rounded-constant.html
+https://api.flutter.dev/flutter/material/Icons/check_box_sharp-constant.html
+
+
