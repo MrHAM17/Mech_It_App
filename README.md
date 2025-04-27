@@ -38,6 +38,34 @@ Built with Flutter for a responsive and intuitive UI and backed by Firebase serv
 
 ---
 
+## Work Flow of Systen
+
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/Work%20Flow.png)
+
+---
+
+## Architecture
+
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/Architecture.png)
+
+---
+
+## Some Screenshots
+
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%201.PNG)
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%202.PNG)
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%203.PNG)
+![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%204.PNG)
+
+---
+
+## 📂 Reports & Docs
+
+- **Project Report**: https://github.com/MrHAM17/Mech_It_App/blob/master/1.%20All%20Project%20IMP%20Docs/Project%20Report/FINAL_Sem_5_Mini_Project_Mech_!t_Project_Report.pdf
+- **All Pics**: https://github.com/MrHAM17/Mech_It_App/tree/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics
+
+---
+
 ## 🛠️ Getting Started
 
 1. **Clone the repo**
@@ -54,28 +82,6 @@ Built with Flutter for a responsive and intuitive UI and backed by Firebase serv
    ```bash
    flutter run
    ```
-
----
-
-## Work Flow of Systen
-
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/Work%20Flow.png)
-
----
-
-## Architecture
-
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/Architecture.png)
-
----
-
-## Screenshots
-
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%201.PNG)
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%202.PNG)
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%203.PNG)
-![](https://github.com/MrHAM17/Mech_It_App/blob/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics/slide%204.PNG)
-
 ---
 
 ## 🤝 Contributing
@@ -85,11 +91,4 @@ Built with Flutter for a responsive and intuitive UI and backed by Firebase serv
 3. Commit your changes (`git commit -m "feat: add ..."`)  
 4. Push to the branch (`git push origin feature/YourFeature`)  
 5. Open a Pull Request
-
----
-
-## 📂 Reports & Docs
-
-- **Project Report**: https://github.com/MrHAM17/Mech_It_App/blob/master/1.%20All%20Project%20IMP%20Docs/Project%20Report/FINAL_Sem_5_Mini_Project_Mech_!t_Project_Report.pdf
-- **All Pics**: https://github.com/MrHAM17/Mech_It_App/tree/master/2.%20Rough%20Work%20%26%20Data/Mech_It_App_Pics
 
